@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RecyclerView_R" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.RecyclerView_R" parent="Base.Theme.RecyclerView_R" />
+
+    <style name="mySplashScreen" parent="Theme.SplashScreen" >
+        <item name="windowSplashScreenBackground">@color/myColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/baseline_adb_24</item>
+        <item name="windowSplashScreenAnimationDuration">1500</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.RecyclerView_R</item>
+    </style>
+
+</resources>
